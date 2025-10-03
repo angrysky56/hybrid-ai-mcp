@@ -46,7 +46,7 @@ This server implements the **"post-NN calculator"** pattern:
 ### Installation
 
 ```bash
-cd /home/ty/Repositories/ai_workspace/hybrid-ai-mcp
+cd /hybrid-ai-mcp
 
 # Create virtual environment
 uv venv --python 3.12 --seed
