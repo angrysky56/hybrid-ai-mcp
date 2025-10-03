@@ -4,7 +4,7 @@
       "command": "uv",
       "args": [
         "--directory",
-        "/home/ty/Repositories/ai_workspace/hybrid-ai-mcp",
+        "/your-path-to/hybrid-ai-mcp",
         "run",
         "server.py"
       ]

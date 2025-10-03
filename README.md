@@ -67,9 +67,8 @@ Add to your `claude_desktop_config.json`:
       "command": "uv",
       "args": [
         "--directory",
-        "/home/ty/Repositories/ai_workspace/hybrid-ai-mcp",
+        "/your-path-to/hybrid-ai-mcp",
         "run",
-        "python",
         "server.py"
       ]
     }
@@ -103,7 +102,7 @@ output = 1 if (w₀ + x₁·w₁ + x₂·w₂ + ... + xₙ·wₙ) ≥ threshold 
 Built from MCP neurons:
 
 - **AND**: Fires only if ALL inputs are true
-- **OR**: Fires if ANY input is true  
+- **OR**: Fires if ANY input is true
 - **NOT**: Inverts input
 - **XOR**: Fires if inputs differ
 - **NAND/NOR**: Negated versions
@@ -232,7 +231,7 @@ post_nn_decision(
 # Create diagnostic rule (majority vote: 2 of 3)
 create_decision_rule(
     "requires_review",
-    [-1.0, 0.6, 0.6, 0.6],  
+    [-1.0, 0.6, 0.6, 0.6],
     description="Flag for doctor review if 2 of 3 indicators present"
 )
 
