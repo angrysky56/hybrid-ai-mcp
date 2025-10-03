@@ -45,20 +45,9 @@ This server implements the **"post-NN calculator"** pattern:
 
 ### Installation
 
-```bash
-cd /hybrid-ai-mcp
-
-# Create virtual environment
-uv venv --python 3.12 --seed
-source .venv/bin/activate
-
-# Install dependencies
-uv add fastmcp numpy pydantic
-```
-
 ### Claude Desktop Configuration
 
-Add to your `claude_desktop_config.json`:
+Add to your `claude_desktop_config.json` and done:
 
 ```json
 {
@@ -74,6 +63,19 @@ Add to your `claude_desktop_config.json`:
     }
   }
 }
+```
+
+If not using a client like Claude:
+
+```bash
+cd /hybrid-ai-mcp
+
+# Create virtual environment
+uv venv --python 3.12 --seed
+source .venv/bin/activate
+
+# Install dependencies
+uv add fastmcp numpy pydantic
 ```
 
 ### Testing
